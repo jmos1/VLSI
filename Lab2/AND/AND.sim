@@ -1,0 +1,18 @@
+| units: 30 tech: scmos format: MIT
+p B a_45_43# VDD! 2 9 51 43
+n B a_45_n13# a_45_43# 2 4 51 -12
+p a_45_43# VDD! OUT 2 9 70 43
+p A VDD! a_45_43# 2 9 43 43
+n a_45_43# GND! OUT 2 4 70 -12
+n A GND! a_45_n13# 2 4 43 -12
+R a_45_n13# 123
+C GND! GND 3.12
+R GND! 1102
+C OUT GND 3.15
+R OUT 294
+C a_45_43# GND 4.95
+R a_45_43# 1022
+R B 759
+R A 759
+C VDD! GND 2.66
+R VDD! 1103

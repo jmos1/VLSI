@@ -1,0 +1,43 @@
+| units: 30 tech: scmos format: MIT
+p a_154_50# VDD! COUT 2 9 179 50
+n A GND! a_80_n5# 2 4 78 -4
+p A SUM a_105_50# 2 9 134 50
+n B a_154_n5# a_154_50# 2 4 160 -4
+p B VDD! a_96_n5# 2 9 94 50
+p A VDD! a_154_50# 2 9 152 50
+n B GND! a_128_n5# 2 4 126 -4
+p a_80_n5# VDD! a_120_50# 2 9 118 50
+p A VDD! a_80_n5# 2 9 78 50
+n a_96_n5# SUM a_112_n5# 2 4 110 -4
+n a_154_50# GND! COUT 2 4 179 -4
+p B a_154_50# VDD! 2 9 160 50
+n A a_128_n5# SUM 2 4 134 -4
+p B a_120_50# SUM 2 9 126 50
+n B GND! a_96_n5# 2 4 94 -4
+n A GND! a_154_n5# 2 4 152 -4
+p a_96_n5# a_105_50# VDD! 2 9 110 50
+n a_80_n5# a_112_n5# GND! 2 4 118 -4
+R a_154_n5# 123
+R a_128_n5# 123
+R a_112_n5# 123
+C GND! GND 7.64
+R GND! 3395
+C COUT GND 3.31
+R COUT 294
+C SUM GND 5.16
+R SUM 650
+R a_120_50# 158
+C a_105_50# GND 2.31
+R a_105_50# 691
+C a_154_50# GND 4.89
+R a_154_50# 1011
+C a_80_n5# GND 3.60
+R a_80_n5# 1042
+C a_96_n5# GND 2.74
+R a_96_n5# 1041
+C B GND 2.04
+R B 2334
+C A GND 2.04
+R A 2335
+C VDD! GND 2.19
+R VDD! 3382
